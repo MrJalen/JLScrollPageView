@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86772ABD1D62E30D00D8AA03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86772ABC1D62E30D00D8AA03 /* main.m */; };
+		86772AC01D62E30D00D8AA03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86772ABF1D62E30D00D8AA03 /* AppDelegate.m */; };
+		86772AC81D62E30D00D8AA03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86772AC71D62E30D00D8AA03 /* Assets.xcassets */; };
+		86772ACB1D62E30D00D8AA03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86772AC91D62E30D00D8AA03 /* LaunchScreen.storyboard */; };
+		86772AE21D62E3CE00D8AA03 /* JLContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86772AD41D62E3CE00D8AA03 /* JLContentView.m */; };
+		86772AE31D62E3CE00D8AA03 /* JLCustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86772AD61D62E3CE00D8AA03 /* JLCustomLabel.m */; };
+		86772AE41D62E3CE00D8AA03 /* JLScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86772AD81D62E3CE00D8AA03 /* JLScrollPageView.m */; };
+		86772AE51D62E3CE00D8AA03 /* JLScrollSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86772ADB1D62E3CE00D8AA03 /* JLScrollSegmentView.m */; };
+		86772AE61D62E3CE00D8AA03 /* JLSegmentStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 86772ADD1D62E3CE00D8AA03 /* JLSegmentStyle.m */; };
+		86772AE71D62E3CE00D8AA03 /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 86772ADF1D62E3CE00D8AA03 /* UIView+Extend.m */; };
+		86772AE81D62E3CE00D8AA03 /* UIViewController+JLScrollPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86772AE11D62E3CE00D8AA03 /* UIViewController+JLScrollPageController.m */; };
+		86772AF71D62E55600D8AA03 /* JLFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86772AEA1D62E55500D8AA03 /* JLFirstViewController.m */; };
+		86772AF81D62E55600D8AA03 /* JLSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86772AEC1D62E55500D8AA03 /* JLSecondViewController.m */; };
+		86772AF91D62E55600D8AA03 /* JLViewControllerCostom.m in Sources */ = {isa = PBXBuildFile; fileRef = 86772AEE1D62E55500D8AA03 /* JLViewControllerCostom.m */; };
+		86772AFA1D62E55600D8AA03 /* JLViewControllerCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 86772AF01D62E55600D8AA03 /* JLViewControllerCover.m */; };
+		86772AFB1D62E55600D8AA03 /* JLViewControllerScrollbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 86772AF21D62E55600D8AA03 /* JLViewControllerScrollbar.m */; };
+		86772AFC1D62E55600D8AA03 /* JLViewControllerZoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 86772AF41D62E55600D8AA03 /* JLViewControllerZoom.m */; };
+		86772AFD1D62E55600D8AA03 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86772AF61D62E55600D8AA03 /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86772AB81D62E30D00D8AA03 /* JLScrollPageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLScrollPageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86772ABC1D62E30D00D8AA03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86772ABE1D62E30D00D8AA03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86772ABF1D62E30D00D8AA03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86772AC71D62E30D00D8AA03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86772ACA1D62E30D00D8AA03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86772ACC1D62E30E00D8AA03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86772AD31D62E3CE00D8AA03 /* JLContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLContentView.h; sourceTree = "<group>"; };
+		86772AD41D62E3CE00D8AA03 /* JLContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLContentView.m; sourceTree = "<group>"; };
+		86772AD51D62E3CE00D8AA03 /* JLCustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCustomLabel.h; sourceTree = "<group>"; };
+		86772AD61D62E3CE00D8AA03 /* JLCustomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLCustomLabel.m; sourceTree = "<group>"; };
+		86772AD71D62E3CE00D8AA03 /* JLScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLScrollPageView.h; sourceTree = "<group>"; };
+		86772AD81D62E3CE00D8AA03 /* JLScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLScrollPageView.m; sourceTree = "<group>"; };
+		86772AD91D62E3CE00D8AA03 /* JLScrollPageViewChildControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLScrollPageViewChildControllerDelegate.h; sourceTree = "<group>"; };
+		86772ADA1D62E3CE00D8AA03 /* JLScrollSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLScrollSegmentView.h; sourceTree = "<group>"; };
+		86772ADB1D62E3CE00D8AA03 /* JLScrollSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLScrollSegmentView.m; sourceTree = "<group>"; };
+		86772ADC1D62E3CE00D8AA03 /* JLSegmentStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSegmentStyle.h; sourceTree = "<group>"; };
+		86772ADD1D62E3CE00D8AA03 /* JLSegmentStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLSegmentStyle.m; sourceTree = "<group>"; };
+		86772ADE1D62E3CE00D8AA03 /* UIView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
+		86772ADF1D62E3CE00D8AA03 /* UIView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extend.m"; sourceTree = "<group>"; };
+		86772AE01D62E3CE00D8AA03 /* UIViewController+JLScrollPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JLScrollPageController.h"; sourceTree = "<group>"; };
+		86772AE11D62E3CE00D8AA03 /* UIViewController+JLScrollPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JLScrollPageController.m"; sourceTree = "<group>"; };
+		86772AE91D62E55500D8AA03 /* JLFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLFirstViewController.h; sourceTree = "<group>"; };
+		86772AEA1D62E55500D8AA03 /* JLFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLFirstViewController.m; sourceTree = "<group>"; };
+		86772AEB1D62E55500D8AA03 /* JLSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSecondViewController.h; sourceTree = "<group>"; };
+		86772AEC1D62E55500D8AA03 /* JLSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLSecondViewController.m; sourceTree = "<group>"; };
+		86772AED1D62E55500D8AA03 /* JLViewControllerCostom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLViewControllerCostom.h; sourceTree = "<group>"; };
+		86772AEE1D62E55500D8AA03 /* JLViewControllerCostom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLViewControllerCostom.m; sourceTree = "<group>"; };
+		86772AEF1D62E55600D8AA03 /* JLViewControllerCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLViewControllerCover.h; sourceTree = "<group>"; };
+		86772AF01D62E55600D8AA03 /* JLViewControllerCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLViewControllerCover.m; sourceTree = "<group>"; };
+		86772AF11D62E55600D8AA03 /* JLViewControllerScrollbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLViewControllerScrollbar.h; sourceTree = "<group>"; };
+		86772AF21D62E55600D8AA03 /* JLViewControllerScrollbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLViewControllerScrollbar.m; sourceTree = "<group>"; };
+		86772AF31D62E55600D8AA03 /* JLViewControllerZoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLViewControllerZoom.h; sourceTree = "<group>"; };
+		86772AF41D62E55600D8AA03 /* JLViewControllerZoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLViewControllerZoom.m; sourceTree = "<group>"; };
+		86772AF51D62E55600D8AA03 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		86772AF61D62E55600D8AA03 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86772AB51D62E30D00D8AA03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86772AAF1D62E30D00D8AA03 = {
+			isa = PBXGroup;
+			children = (
+				86772ABA1D62E30D00D8AA03 /* JLScrollPageView */,
+				86772AB91D62E30D00D8AA03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86772AB91D62E30D00D8AA03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86772AB81D62E30D00D8AA03 /* JLScrollPageView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86772ABA1D62E30D00D8AA03 /* JLScrollPageView */ = {
+			isa = PBXGroup;
+			children = (
+				86772AD21D62E3CE00D8AA03 /* JLScrollPageView */,
+				86772ABE1D62E30D00D8AA03 /* AppDelegate.h */,
+				86772ABF1D62E30D00D8AA03 /* AppDelegate.m */,
+				86772AF51D62E55600D8AA03 /* MainViewController.h */,
+				86772AF61D62E55600D8AA03 /* MainViewController.m */,
+				86772AF31D62E55600D8AA03 /* JLViewControllerZoom.h */,
+				86772AF41D62E55600D8AA03 /* JLViewControllerZoom.m */,
+				86772AF11D62E55600D8AA03 /* JLViewControllerScrollbar.h */,
+				86772AF21D62E55600D8AA03 /* JLViewControllerScrollbar.m */,
+				86772AEF1D62E55600D8AA03 /* JLViewControllerCover.h */,
+				86772AF01D62E55600D8AA03 /* JLViewControllerCover.m */,
+				86772AED1D62E55500D8AA03 /* JLViewControllerCostom.h */,
+				86772AEE1D62E55500D8AA03 /* JLViewControllerCostom.m */,
+				86772AE91D62E55500D8AA03 /* JLFirstViewController.h */,
+				86772AEA1D62E55500D8AA03 /* JLFirstViewController.m */,
+				86772AEB1D62E55500D8AA03 /* JLSecondViewController.h */,
+				86772AEC1D62E55500D8AA03 /* JLSecondViewController.m */,
+				86772AC71D62E30D00D8AA03 /* Assets.xcassets */,
+				86772AC91D62E30D00D8AA03 /* LaunchScreen.storyboard */,
+				86772ACC1D62E30E00D8AA03 /* Info.plist */,
+				86772ABB1D62E30D00D8AA03 /* Supporting Files */,
+			);
+			path = JLScrollPageView;
+			sourceTree = "<group>";
+		};
+		86772ABB1D62E30D00D8AA03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86772ABC1D62E30D00D8AA03 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86772AD21D62E3CE00D8AA03 /* JLScrollPageView */ = {
+			isa = PBXGroup;
+			children = (
+				86772AD31D62E3CE00D8AA03 /* JLContentView.h */,
+				86772AD41D62E3CE00D8AA03 /* JLContentView.m */,
+				86772AD51D62E3CE00D8AA03 /* JLCustomLabel.h */,
+				86772AD61D62E3CE00D8AA03 /* JLCustomLabel.m */,
+				86772AD71D62E3CE00D8AA03 /* JLScrollPageView.h */,
+				86772AD81D62E3CE00D8AA03 /* JLScrollPageView.m */,
+				86772AD91D62E3CE00D8AA03 /* JLScrollPageViewChildControllerDelegate.h */,
+				86772ADA1D62E3CE00D8AA03 /* JLScrollSegmentView.h */,
+				86772ADB1D62E3CE00D8AA03 /* JLScrollSegmentView.m */,
+				86772ADC1D62E3CE00D8AA03 /* JLSegmentStyle.h */,
+				86772ADD1D62E3CE00D8AA03 /* JLSegmentStyle.m */,
+				86772ADE1D62E3CE00D8AA03 /* UIView+Extend.h */,
+				86772ADF1D62E3CE00D8AA03 /* UIView+Extend.m */,
+				86772AE01D62E3CE00D8AA03 /* UIViewController+JLScrollPageController.h */,
+				86772AE11D62E3CE00D8AA03 /* UIViewController+JLScrollPageController.m */,
+			);
+			path = JLScrollPageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86772AB71D62E30D00D8AA03 /* JLScrollPageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86772ACF1D62E30E00D8AA03 /* Build configuration list for PBXNativeTarget "JLScrollPageView" */;
+			buildPhases = (
+				86772AB41D62E30D00D8AA03 /* Sources */,
+				86772AB51D62E30D00D8AA03 /* Frameworks */,
+				86772AB61D62E30D00D8AA03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLScrollPageView;
+			productName = JLScrollPageView;
+			productReference = 86772AB81D62E30D00D8AA03 /* JLScrollPageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86772AB01D62E30D00D8AA03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lianjiang;
+				TargetAttributes = {
+					86772AB71D62E30D00D8AA03 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 86772AB31D62E30D00D8AA03 /* Build configuration list for PBXProject "JLScrollPageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86772AAF1D62E30D00D8AA03;
+			productRefGroup = 86772AB91D62E30D00D8AA03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86772AB71D62E30D00D8AA03 /* JLScrollPageView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86772AB61D62E30D00D8AA03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86772ACB1D62E30D00D8AA03 /* LaunchScreen.storyboard in Resources */,
+				86772AC81D62E30D00D8AA03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86772AB41D62E30D00D8AA03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86772AC01D62E30D00D8AA03 /* AppDelegate.m in Sources */,
+				86772AE61D62E3CE00D8AA03 /* JLSegmentStyle.m in Sources */,
+				86772AE41D62E3CE00D8AA03 /* JLScrollPageView.m in Sources */,
+				86772AFD1D62E55600D8AA03 /* MainViewController.m in Sources */,
+				86772AFB1D62E55600D8AA03 /* JLViewControllerScrollbar.m in Sources */,
+				86772ABD1D62E30D00D8AA03 /* main.m in Sources */,
+				86772AF81D62E55600D8AA03 /* JLSecondViewController.m in Sources */,
+				86772AF91D62E55600D8AA03 /* JLViewControllerCostom.m in Sources */,
+				86772AE21D62E3CE00D8AA03 /* JLContentView.m in Sources */,
+				86772AF71D62E55600D8AA03 /* JLFirstViewController.m in Sources */,
+				86772AE31D62E3CE00D8AA03 /* JLCustomLabel.m in Sources */,
+				86772AFC1D62E55600D8AA03 /* JLViewControllerZoom.m in Sources */,
+				86772AFA1D62E55600D8AA03 /* JLViewControllerCover.m in Sources */,
+				86772AE71D62E3CE00D8AA03 /* UIView+Extend.m in Sources */,
+				86772AE51D62E3CE00D8AA03 /* JLScrollSegmentView.m in Sources */,
+				86772AE81D62E3CE00D8AA03 /* UIViewController+JLScrollPageController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86772AC91D62E30D00D8AA03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86772ACA1D62E30D00D8AA03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86772ACD1D62E30E00D8AA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86772ACE1D62E30E00D8AA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86772AD01D62E30E00D8AA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JLScrollPageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianjiang.JLScrollPageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86772AD11D62E30E00D8AA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JLScrollPageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianjiang.JLScrollPageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86772AB31D62E30D00D8AA03 /* Build configuration list for PBXProject "JLScrollPageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86772ACD1D62E30E00D8AA03 /* Debug */,
+				86772ACE1D62E30E00D8AA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86772ACF1D62E30E00D8AA03 /* Build configuration list for PBXNativeTarget "JLScrollPageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86772AD01D62E30E00D8AA03 /* Debug */,
+				86772AD11D62E30E00D8AA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86772AB01D62E30D00D8AA03 /* Project object */;
+}
